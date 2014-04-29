@@ -1,0 +1,4 @@
+Total Access:     1000001 Total Miss:     8757 Total Hit:     991244 Miss Rate: 0.00875699
+Read Inst Access: 782764 Read Inst Miss: 2278 Read Inst Hit: 780486 Miss Rate: 0.0029102
+Read Data Access: 150699 Read Data Miss: 1488 Read Data Hit: 149211 Miss Rate: 0.00987399
+Write Access:     66538 Write Miss:     4991 Write Hit:     61547 Miss Rate: 0.0750098
