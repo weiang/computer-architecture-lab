@@ -56,14 +56,17 @@ Snoop Flush transaction
 Snoop Rdx transaction
 Snoop Rdx transaction
 Snoop Rdx transaction
-states: 1
+states: 2
 Read Miss: Put Rd transaction on bus
 Snoop Rd transaction
 Snoop Rd transaction
 Snoop Rd transaction
 Snoop Rd transaction
 Replace happened!
-Shared
+Snoop Flush transaction
+Snoop Flush transaction
+Snoop Flush transaction
+Snoop Flush transaction
 states: 1
 Write Miss: Put Rdx transaction on Bus
 Snoop Rdx transaction

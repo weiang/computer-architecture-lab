@@ -105,11 +105,8 @@ void CacheController::readMiss(int index, AddressType address)
 			bus->setBus(Flush, tmp);	// Put "Flush" on bus, write dirty block back to memory
 			bus->notify();
 		}
-		else if (states[index + i] == Shared) {
-			cout << "Shared" << endl;
-			tags[index + i] = address;
-			states[index + i] = Shared;
-		}
+		tags[index + i] = address;
+		states[index + i] = Shared;
 	}
 }
 
@@ -136,9 +133,9 @@ void CacheController::writeMiss(int index, AddressType address)
 			AddressType tmp = tags[index + i] * blockSize * setSize;
 			bus->setBus(Flush, tmp);	// Put "Flush" on bus, write back dirty block
 			bus->notify();
-			states[index + i] = Modified;
-			tags[index + i] = address;
 		}
+		states[index + i] = Modified;
+		tags[index + i] = address;
 	}
 }
 
