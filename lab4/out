@@ -1,0 +1,73 @@
+states: 0
+Read Miss: Put Rd transaction on bus
+Snoop Rd transaction
+Snoop Rd transaction
+Snoop Rd transaction
+Snoop Rd transaction
+states: 0
+Read Miss: Put Rd transaction on bus
+Snoop Rd transaction
+Snoop Rd transaction
+Snoop Rd transaction
+Snoop Rd transaction
+states: 0
+Read Miss: Put Rd transaction on bus
+Snoop Rd transaction
+Snoop Rd transaction
+Snoop Rd transaction
+Snoop Rd transaction
+states: 1
+Write Hit: (Shared) Put Rdx transaction on bus
+Snoop Rdx transaction
+Snoop Rdx transaction
+Snoop Rdx transaction
+Snoop Rdx transaction
+states: 0
+Read Miss: Put Rd transaction on bus
+Snoop Rd transaction
+Snoop Rd transaction
+Snoop Flush transaction
+Snoop Flush transaction
+Snoop Flush transaction
+Snoop Flush transaction
+Snoop Rd transaction
+Snoop Rd transaction
+states: 1
+Write Miss: Put Rdx transaction on Bus
+Snoop Rdx transaction
+Snoop Rdx transaction
+Snoop Rdx transaction
+Snoop Rdx transaction
+Replace happened!
+states: 0
+Write Miss: Put Rdx transaction on Bus
+Snoop Rdx transaction
+Snoop Rdx transaction
+Snoop Rdx transaction
+Snoop Rdx transaction
+states: 0
+Write Miss: Put Rdx transaction on Bus
+Snoop Rdx transaction
+Write Back to Memory
+Snoop Flush transaction
+Snoop Flush transaction
+Snoop Flush transaction
+Snoop Flush transaction
+Snoop Rdx transaction
+Snoop Rdx transaction
+Snoop Rdx transaction
+states: 1
+Read Miss: Put Rd transaction on bus
+Snoop Rd transaction
+Snoop Rd transaction
+Snoop Rd transaction
+Snoop Rd transaction
+Replace happened!
+Shared
+states: 1
+Write Miss: Put Rdx transaction on Bus
+Snoop Rdx transaction
+Snoop Rdx transaction
+Snoop Rdx transaction
+Snoop Rdx transaction
+Replace happened!
